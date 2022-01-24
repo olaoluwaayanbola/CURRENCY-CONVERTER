@@ -16,12 +16,12 @@
             </header>
             <div class="input">
                 <label for="amount">AMOUNT:</label>
-                <input name="amount" type="number" placeholder="0.00" required>
+                <input name="amount" type="number" placeholder="0.00" id="Amount" required>
             </div>
            <div class="selection">
                <div class="selection-one">
                    <label for="from">FROM:</label>
-                    <select name="from" id="" required>
+                    <select name="from" id="from" required>
                         <option value="">Select One …</option>
                         <option value="USD">USD</option>
                         <option value="AED">AED</option>
@@ -79,7 +79,7 @@
                </div>
                <div class="selection-two">
                    <label for="TO">TO:</label>
-                   <select  name="TO" id="TO" class="TO" required>
+                   <select  name="TO" id="TOx" class="TO" required>
                         <option value="">Select One …</option>
                         <option value="USD">USD</option>
                         <option value="AED">AED</option>
@@ -137,13 +137,12 @@
                </div>
            </div>
            <div id="btn">
-                <button>CONVERT</button>
+                <button id="btnn">CONVERT</button>
            </div>
-       </div>
    </div> 
    <div class="result_conversion_box">
-        <div class="result">34</div>
-   </div>  
+        <div id="result">34</div>
+   </div> 
 </body>
-<script src="/javscript/index.js"></script>
+<script src="index.js"></script> 
 </html>

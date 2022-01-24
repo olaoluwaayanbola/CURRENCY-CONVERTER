@@ -3,13 +3,12 @@
     padding: 0;
 }
 body{
-    width: 100%;
     box-sizing: border-box;
     background-color: rgb(10, 6, 53);
 }
 .currency_box{
     color: rgb(0, 0, 0);
-    width: 30%;
+    width: 55vh;
     background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 20%;
@@ -58,7 +57,7 @@ button:hover{
     justify-content: center;
     width: 100%;
 }
-.result{
+#result{
     padding: 7px 5px 7px 5px ;
     min-width: 100px;
     border-radius: 5px;
